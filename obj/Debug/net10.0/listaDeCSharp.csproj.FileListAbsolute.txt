@@ -1,0 +1,14 @@
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\bin\Debug\net10.0\listaDeCSharp.exe
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\bin\Debug\net10.0\listaDeCSharp.deps.json
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\bin\Debug\net10.0\listaDeCSharp.runtimeconfig.json
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\bin\Debug\net10.0\listaDeCSharp.dll
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\bin\Debug\net10.0\listaDeCSharp.pdb
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.AssemblyInfoInputs.cache
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.AssemblyInfo.cs
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.csproj.CoreCompileInputs.cache
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.dll
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\refint\listaDeCSharp.dll
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.pdb
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.genruntimeconfig.cache
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\ref\listaDeCSharp.dll
