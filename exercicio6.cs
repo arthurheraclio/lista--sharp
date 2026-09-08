@@ -1,47 +1,47 @@
-// Faça um programa na linguagem Java que pergunte, pelo teclado, o preço de três produtos e informe, no
-// console, qual produto você deve comprar, sabendo que a decisão de comprar um produto é sempre pelo
-// mais barato.
+// // Faça um programa na linguagem Java que pergunte, pelo teclado, o preço de três produtos e informe, no
+// // console, qual produto você deve comprar, sabendo que a decisão de comprar um produto é sempre pelo
+// // mais barato.
 
-using System;
+// using System;
 
-class Pechincha
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Preço do Produto 1: ");
-        string precoUm = Console.ReadLine();
-        float preco1 = float.Parse(precoUm);
-        Console.WriteLine("Preço do Produto 2: ");
-        string precoDois = Console.ReadLine();
-        float preco2 = float.Parse(precoDois);
-        Console.WriteLine("Preço do Produto 3: ");
-        string precoTres = Console.ReadLine();
-        float preco3 = float.Parse(precoTres);
+// class Pechincha
+// {
+//     static void Main(string[] args)
+//     {
+//         Console.WriteLine("Preço do Produto 1: ");
+//         string precoUm = Console.ReadLine();
+//         float preco1 = float.Parse(precoUm);
+//         Console.WriteLine("Preço do Produto 2: ");
+//         string precoDois = Console.ReadLine();
+//         float preco2 = float.Parse(precoDois);
+//         Console.WriteLine("Preço do Produto 3: ");
+//         string precoTres = Console.ReadLine();
+//         float preco3 = float.Parse(precoTres);
 
-        float[] precos = new float[3];
-        precos = new float[] {preco1, preco2, preco3};
-        // precos.Append(preco1);
-        // precos.Append(preco2);
-        // precos.Append(preco3);
+//         float[] precos = new float[3];
+//         precos = new float[] {preco1, preco2, preco3};
+//         // precos.Append(preco1);
+//         // precos.Append(preco2);
+//         // precos.Append(preco3);
 
-        Console.WriteLine(string.Join(", ", precos));
-        Console.Write(RetornaMaiorPreco(precos));
+//         Console.WriteLine(string.Join(", ", precos));
+//         Console.Write(RetornaMaiorPreco(precos));
 
         
 
-    }
+//     }
 
-    public static float RetornaMaiorPreco(float[] precos)
-    {
-        float maiorPreco = 0;
-        for(int i = 0; i < precos.Length; i++)
-        {
-            if(maiorPreco < precos[i])
-            {
-                maiorPreco = precos[i];
-            }
-        }
-        return maiorPreco;
-    }
+//     public static float RetornaMaiorPreco(float[] precos)
+//     {
+//         float maiorPreco = 0;
+//         for(int i = 0; i < precos.Length; i++)
+//         {
+//             if(maiorPreco < precos[i])
+//             {
+//                 maiorPreco = precos[i];
+//             }
+//         }
+//         return maiorPreco;
+//     }
 
-}
+// }
