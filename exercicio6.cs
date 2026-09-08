@@ -24,12 +24,24 @@ class Pechincha
         // precos.Append(preco2);
         // precos.Append(preco3);
 
-        Console.Write(string.Join(", ", precos));
+        Console.WriteLine(string.Join(", ", precos));
+        Console.Write(RetornaMaiorPreco(precos));
 
-        for (int i = 0; i = precos.Length; i++)
-        {
-            
-        }
+        
 
     }
+
+    public static float RetornaMaiorPreco(float[] precos)
+    {
+        float maiorPreco = 0;
+        for(int i = 0; i < precos.Length; i++)
+        {
+            if(maiorPreco < precos[i])
+            {
+                maiorPreco = precos[i];
+            }
+        }
+        return maiorPreco;
+    }
+
 }
