@@ -12,3 +12,4 @@ C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\refint\listaDeCS
 C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.pdb
 C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.genruntimeconfig.cache
 C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\ref\listaDeCSharp.dll
+C:\Users\arthu\OneDrive\Desktop\listaDeCSharp\obj\Debug\net10.0\listaDeCSharp.sourcelink.json
