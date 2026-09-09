@@ -1,34 +1,29 @@
 using System;
-using System.Diagnostics.CodeAnalysis;
 
-class MediaDeNotas
+public class Boletim
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        
-        float[] notas = new float[3];
-        for (int i = 0; i < notas.Length; i++)
-        {
-            Console.Write("Escreva aqui as notas: ");
-            string notaString = Console.ReadLine();
-            notas[i] = float.Parse(notaString);
-            float somaNotas;
-            float soma = 0;
-            foreach (float nota in notas)
-            {
-             soma += nota;
-            }
-            float media = soma/notas.Length;
-            Console.WriteLine($"A sua média é {media}");
-            if(media < 7)
-            {
-                Console.WriteLine("Infelizmente você não passou");
-            }
-            if(media >= 7)
-            {
-                Console.WriteLine("Parabéns, você passou!");
-            }
-        }
+        float soma = 0;
+        float media;
+     float[] notas = new float[3];
+    for (int i = 0; i < notas.Length; i++)
+    {     
+     Console.WriteLine("Escreva aqui sua nota: ");   
+     string entrada = Console.ReadLine();
+     float notaFloat = float.Parse(entrada);
+        soma+= notaFloat;
+        //Console.WriteLine(soma);
     }
-    
+        media = soma/notas.Length;
+        Console.WriteLine($"A média é {media}");
+	if(media < 7)
+{
+Console.WriteLine("Infelizmente, você não obteve a média necessária");
+}
+if (media >= 7)
+{
+Console.WriteLine("Parabéns, você foi aprovado!");
+}
+    }
 }
