@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("listaDeCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12bb473a1935a596ae0bd67759454cac64a17099")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ea716e4c3572fda969723f0bd54f38c14cc00ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("listaDeCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("listaDeCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
