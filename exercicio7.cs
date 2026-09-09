@@ -12,22 +12,22 @@ class MediaDeNotas
             Console.Write("Escreva aqui as notas: ");
             string notaString = Console.ReadLine();
             notas[i] = float.Parse(notaString);
-            
-            while(i < notas.Length)
+            float somaNotas;
+            float soma = 0;
+            foreach (float nota in notas)
             {
-              notas[i] += notas[i + 1];
+             soma += nota;
             }
-            Console.Write(soma);
-           float soma = notas[i] + notas[i];
-           Console.Write(soma);
-            // foreach (float nota in notas)
-            // {
-            //    // float inicio = 0;
-            //     float temp += nota;
-            //     //float media = soma/notas.Length;
-            //     Console.Write(soma);
-            // }
-            
+            float media = soma/notas.Length;
+            Console.WriteLine($"A sua média é {media}");
+            if(media < 7)
+            {
+                Console.WriteLine("Infelizmente você não passou");
+            }
+            if(media >= 7)
+            {
+                Console.WriteLine("Parabéns, você passou!");
+            }
         }
     }
     
