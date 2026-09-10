@@ -1,21 +1,36 @@
-// using System;
+using System;
+// using System.Runtime.CompilerServices;
 
-// public class NotaZeroAteDez
+// public class Eleicoes
 // {
 //     public static void Main(string[] args)
 //     {
+//         int Lulonaro = 0;
+//         int Bolsolula = 0;
+//         int Getulino = 0;
+//         Console.WriteLine ("Escreva a quantidade de eleitores: ");
         
-//         Console.WriteLine("Escreva uma nota de 0 a 10: ");
-//         int nota = Int32.Parse(Console.ReadLine());  
-//         while( nota < 0 || nota> 10)
+//         int numEleitores = Int32.Parse(Console.ReadLine());
+//         int[] eleitores = new int[numEleitores];
+//         for (int i = 0 ; i < numEleitores ; i++)
 //         {
-//             Console.WriteLine("Escreva uma nota de 0 a 10: ");
-//             int notaWhile = Int32.Parse(Console.ReadLine());
-//             if (notaWhile >=0 && notaWhile <=10)
-//             {
-//                 Console.WriteLine($"Seu número escolhido foi {notaWhile}");
-//                 break;
-//             }
+//             Console.WriteLine("Meu voto vai para: ");
+//             int voto = Int32.Parse(Console.ReadLine());
+//         if (voto == 13)
+//         {
+//             Lulonaro+=1;
 //         }
+//         if (voto == 22)
+//         {
+//             Bolsolula+=1;
+//         }
+//         if (voto == 24)
+//         {
+//             Getulino+=1;
+//         }
+//         }
+
+//         Console.Write($"Lulonaro: {Lulonaro}, Bolsolula: {Bolsolula}, Getulino: {Getulino}");
+        
 //     }
 // }

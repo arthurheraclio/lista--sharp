@@ -5,11 +5,19 @@
 //     public static void Main(string[] args)
 //     {
 //         Console.WriteLine ("Escreva um número de 0 a 10 ");
-//         string numero = Console.ReadLine();
-//         int num = Int32.Parse(numero);
+       
+       
+//         int num = Int32.Parse(Console.ReadLine());
+//         if (num < 0 || num> 10)
+//         {
+//             Console.WriteLine("De 0 a 10, cabeção!!");
+//          }else{
 //         for (int i = 0; i <10 ; i++)
 //         {
 //             Console.WriteLine(num * i);
 //         }
+            
+        
 //     }
+// }
 // }
