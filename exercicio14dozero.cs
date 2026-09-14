@@ -8,9 +8,25 @@ public class Primos
 {
     static void Main(string[] args)
     {
-        for(int i = 0 ;)
+        for(int i = 0 ; i < 10 ; i++ )
+        {
         Console.Write("Escreva aqui 10 números inteiros: ");
         int numerosRecebidos = Int32.Parse(Console.ReadLine());
-        Console.WriteLine(numerosRecebidos);
+        if(numerosRecebidos == 2)
+        {
+            Console.WriteLine("É primo");
+        }
+        //Console.WriteLine(numerosRecebidos);
+        if(numerosRecebidos != 2 && numerosRecebidos%1 == 0 && numerosRecebidos%numerosRecebidos == 0 && numerosRecebidos%2 != 0 && numerosRecebidos%3 != 0 && numerosRecebidos%5 != 0)
+            {
+                Console.WriteLine("É primo");
+            } else
+            {
+                Console.WriteLine("Não é primo");
+            }
+        }
+    
+        
+
     }
 }
