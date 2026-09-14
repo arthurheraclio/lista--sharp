@@ -1,5 +1,5 @@
-//Faça um programa na linguagem Java que receba um número em metros pelo teclado, converta em
-//centímetros e mostre o resultado no console.
+// Faça um programa na linguagem Java que receba um número em metros pelo teclado, converta em
+// centímetros e mostre o resultado no console.
 
 // using System;
 
